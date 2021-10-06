@@ -27,11 +27,11 @@ function sortList(){
 
     let childarray = space.children;
 
-    let notsorted = true;
-    while(notsorted)
-    {
-        notsorted = false; 
-        let min = childarray[0].getAttribute("id");
+    //let notsorted = true;
+    //while(notsorted)
+    //{
+        //notsorted = false; 
+        //let min = childarray[0].getAttribute("id");
    
         for (i = 0; i < childarray.length; i++){
     
@@ -44,11 +44,11 @@ function sortList(){
                 
                 if(aID > bID)
                 {
-                    notsorted = true;
+                    //notsorted = true;
                     a.parentNode.insertBefore(b,a);
                 }
             }
         }
-    }      
+    //}      
 
 }
